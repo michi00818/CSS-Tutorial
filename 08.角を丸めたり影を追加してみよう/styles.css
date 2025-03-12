@@ -25,7 +25,7 @@ div {
 
 ul {
   padding: 0;
-  margin:12px 0;
+  margin: 4px; 0;
 }
 
 li {
@@ -43,8 +43,20 @@ main {
 
 /* li要素にスタイルを適用 */
 
+li {
+  border: #192F60 1px solid;
+  border-radius: 8px;
+}
 /* header要素にスタイルを適用 */
+header {
+  border-radius: 20px 20px 0 0;
+}
 
 /* div要素にスタイルを適用 */
-
+div {
+  border-radius: 0 0 20px 20px;
+}
 /* main要素内にスタイルを適用 */
+main {
+  overflow: auto;
+}
